@@ -1,0 +1,21 @@
+<%=link_to"Home Page", root_path %>
+
+<%=form_for @car do |f| %>
+
+<%=f.label :Make %>
+<%=f.text_field :Make %>
+<br>
+<%=f.label :Model %>
+<%=f.text_field :Model %>
+<br>
+<%=f.label :Year %>
+<%=f.text_field :Year %>
+<br>
+<%=f.label :Color %>
+<%=f.text_field :Color %>
+<br>
+<%= f.submit %>
+
+
+
+	<% end %>
